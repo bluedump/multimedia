@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MP3Song - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MP3Song.res" /d "_DEBUG" /d "_AFXDLL" "E:\vc workspace\MP3Song\MP3Song.rc"" 
+Creating temporary file "C:\Users\qinlei\AppData\Local\Temp\RSPDACD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MP3Song.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\vc workspace\MP3Song\AddSingerDlg.cpp"
+"E:\vc workspace\MP3Song\BTNST.CPP"
+"E:\vc workspace\MP3Song\DialogBarPlay.cpp"
+"E:\vc workspace\MP3Song\EditSong.cpp"
+"E:\vc workspace\MP3Song\LeftTreeView.cpp"
+"E:\vc workspace\MP3Song\MainFrm.cpp"
+"E:\vc workspace\MP3Song\MP3Song.cpp"
+"E:\vc workspace\MP3Song\MP3SongDoc.cpp"
+"E:\vc workspace\MP3Song\MP3SongView.cpp"
+"E:\vc workspace\MP3Song\QueryDlg.cpp"
+"E:\vc workspace\MP3Song\RightListView.cpp"
+"E:\vc workspace\MP3Song\SongRecordSet.cpp"
+]
+Creating command line "cl.exe @C:\Users\qinlei\AppData\Local\Temp\RSPDACD.tmp" 
+Creating temporary file "C:\Users\qinlei\AppData\Local\Temp\RSPDACE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MP3Song.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\vc workspace\MP3Song\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\qinlei\AppData\Local\Temp\RSPDACE.tmp" 
+Creating temporary file "C:\Users\qinlei\AppData\Local\Temp\RSPDACF.tmp" with contents
+[
+Winmm.lib vfw32.lib Lib\SkinppWTL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MP3Song.pdb" /debug /machine:I386 /out:"MP3Song.exe" /pdbtype:sept 
+".\Debug\AddSingerDlg.obj"
+".\Debug\BTNST.OBJ"
+".\Debug\DialogBarPlay.obj"
+".\Debug\EditSong.obj"
+".\Debug\LeftTreeView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MP3Song.obj"
+".\Debug\MP3SongDoc.obj"
+".\Debug\MP3SongView.obj"
+".\Debug\QueryDlg.obj"
+".\Debug\RightListView.obj"
+".\Debug\SongRecordSet.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MP3Song.res"
+]
+Creating command line "link.exe @C:\Users\qinlei\AppData\Local\Temp\RSPDACF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AddSingerDlg.cpp
+BTNST.CPP
+DialogBarPlay.cpp
+EditSong.cpp
+LeftTreeView.cpp
+MainFrm.cpp
+MP3Song.cpp
+MP3SongDoc.cpp
+MP3SongView.cpp
+QueryDlg.cpp
+RightListView.cpp
+SongRecordSet.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MP3Song.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
